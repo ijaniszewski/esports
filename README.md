@@ -14,7 +14,13 @@ or via Docker (just change the last line in Dockerfile)
 
 `RUN python run_from_file.py --movie_id 1 `
 
-### Python Version
+and run
+
+` docker build . `
+
+
+
+###### Python Version
 
 `python -V`
 
