@@ -2,7 +2,7 @@
 
 import argparse
 
-from main import GetInfo
+from src.main import GetInfo
 
 
 class GetArgument:

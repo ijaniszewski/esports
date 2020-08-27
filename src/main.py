@@ -4,7 +4,7 @@ import os
 import pandas as pd
 from typing import List
 
-from settings import comments_data, movies_data
+from src.settings import comments_data, movies_data
 
 
 @dataclass
