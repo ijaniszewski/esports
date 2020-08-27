@@ -2,5 +2,7 @@ venv/
 .vscode/
 __pycache__/
 .cache/
-data/
+data/*
+!data/.keep
+all_data/
 .DS_Store

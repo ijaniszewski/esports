@@ -1,3 +1,5 @@
+"""Settings how to ingest data from files in data directory."""
+
 comments_data = {
     "first_file": "comments-00.csv",
     "files_pattern": "comments-*.csv",
@@ -15,7 +17,7 @@ movies_data = {
     "col_names": [
         "id_movie",
         "title",
-        "ig_game"
+        "id_game"
         ],
     "index_col": "id_movie"
 }

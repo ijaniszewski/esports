@@ -6,7 +6,9 @@ from src.main import GetInfo
 
 
 class GetArgument:
-    def get_argument(self):
+    """Get passed movie ID and get info about it via GetInfo instance."""
+    @staticmethod
+    def get_argument():
         """Get the movie id from argument if it is integer.
 
         Return
@@ -27,8 +29,8 @@ class GetArgument:
     def from_file(self):
         """Get the movie_id as passed argument and create GetInfo object."""
         movie_id = self.get_argument()
-        gi = GetInfo()
-        gi.main(movie_id)
+        get_info = GetInfo()
+        get_info.main(movie_id)
 
 
 if __name__ == "__main__":
